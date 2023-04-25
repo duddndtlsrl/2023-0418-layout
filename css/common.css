@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Days+One&display=swap");
+/* font-family: 'Days One', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  color: #222;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 14px;
+  background-color: white;
+  font-weight: 400;
+}
+
+.btn {
+  width: 120px;
+  height: 50px;
+  background-color: #222;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 6px;
+  display: block;
+}
+
+.wrap {
+}
+
+.header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+}
+
+.logo {
+  margin-right: auto;
+}
+
+.gnb {
+  display: flex;
+  align-items: center;
+}
+
+.gnb li a {
+  display: block;
+  padding: 0 55px;
+  height: 100px;
+  line-height: 100px;
+}
+
+.header .btns {
+  margin-left: 60px;
+}
+
+.container {
+  width: 1200px;
+  margin: 120px auto;
+  padding: 0 15px;
+}
+
+.gallery {
+  margin-bottom: 84px;
+}
+
+.gallery_header,
+.insta_list {
+  display: flex;
+  align-items: flex-end;
+  /* flex_start는 위로 정렬 */
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.gallery_list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.insta_list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 30px;
+}
+
+.title_box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gallery_header p {
+  color: #808080;
+}
+
+.title_box h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.container img {
+  width: 100%;
+  display: block;
+}
+
+.footer {
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 52px 0 56px;
+  color: #808080;
+}
+
+.footer p {
+  margin-bottom: 30px;
+  font-size: 13px;
+}
+
+.footer .social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  font-size: 22px;
+}
