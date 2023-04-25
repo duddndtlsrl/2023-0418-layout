@@ -65,7 +65,6 @@
             <li><img src="./images/insta_010.jpg" alt="" /></li>
             <li><img src="./images/insta_011.jpg" alt="" /></li>
             <li><img src="./images/insta_012.jpg" alt="" /></li>
-            <li><img src="./images/insta_013.jpg" alt="" /></li>
           </ul>
         </div>
       </div>
@@ -80,5 +79,15 @@
         </div>
       </div>
     </div>
+
+    <script>
+      const gnb = document.querySelector(".gnb");
+      const bars = document.querySelector(".bars i");
+      bars.addEventListener("click", function () {
+        gnb.classList.toggle("active");
+        console.log(this);
+        this.classList.toggle("xi-close");
+      });
+    </script>
   </body>
 </html>
